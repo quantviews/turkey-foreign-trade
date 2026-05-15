@@ -1,0 +1,11 @@
+[project]
+name = "turkey-foreign-trade"
+version = "0.1.0"
+description = "Pipeline for Turkey-Russia foreign trade data (GTIP-12 monthly) from TUIK BI"
+requires-python = ">=3.10"
+
+[project.scripts]
+ttrade = "pipeline.cli:app"
+
+[tool.setuptools]
+packages = ["pipeline"]

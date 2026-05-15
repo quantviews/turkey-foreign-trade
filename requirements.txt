@@ -1,0 +1,10 @@
+playwright>=1.47
+pandas>=2.2
+pyarrow>=17
+duckdb>=1.1
+requests>=2.32
+tenacity>=9.0
+tqdm>=4.66
+python-dotenv>=1.0
+typer>=0.12
+loguru>=0.7
